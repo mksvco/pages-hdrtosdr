@@ -3,115 +3,155 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Convert iPhone HDR footage to SDR with QuickTime-matching quality. Professional-grade tone mapping for macOS.">
-    <title>HDR→SDR - Convert iPhone HDR Videos to SDR</title>
+    
+    <!-- Primary Meta Tags -->
+    <title>HDR→SDR - Convert iPhone HDR Videos to SDR | Mac & iOS App</title>
+    <meta name="title" content="HDR→SDR - Convert iPhone HDR Videos to SDR | Mac & iOS App">
+    <meta name="description" content="Convert iPhone HDR footage to SDR with one quick step. Professional-grade tone mapping for macOS and iOS. Local processing, batch conversion, ProRes export.">
+    <meta name="keywords" content="HDR to SDR, iPhone HDR converter, video tone mapping, HDR conversion, macOS video converter, iOS video app, ProRes export, HDR video fix, tone mapping app, local video processing">
+    <meta name="author" content="Mike Savoie">
+    
+    <!-- Apple -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-title" content="HDR→SDR">
+    
+    <!-- Canonical -->
+    <link rel="canonical" href="https://hdrtosdr.app/">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "SoftwareApplication",
+      "name": "HDR→SDR",
+      "applicationCategory": "MultimediaApplication",
+      "operatingSystem": ["macOS 14.0 or later", "iOS 17.0 or later"],
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "USD"
+      },
+      "description": "Convert iPhone HDR footage to SDR with professional-grade tone mapping for macOS and iOS.",
+      "author": {
+        "@type": "Person",
+        "name": "Mike Savoie",
+        "url": "https://mksv.co"
+      },
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "5.0",
+        "ratingCount": "1"
+      }
+    }
+    </script>
+    
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <!-- Animated Background -->
     <div class="animated-background">
         <div class="background-gradient"></div>
         <div class="background-noise"></div>
     </div>
     
-    <!-- Header -->
     <header class="header">
         <div class="container">
             <img src="hdricon-iOS-ClearDark-1024x1024@1x.png" alt="HDR→SDR app logo" class="app-logo">
             <h1 class="app-title">HDR→SDR</h1>
-            <p class="tagline">Convert iPhone HDR footage to SDR with QuickTime-matching quality</p>
+            <p class="tagline">Convert iPhone HDR footage to SDR in one click.</p>
         </div>
     </header>
 
-    <!-- Hero Section -->
     <section class="hero">
         <div class="container">
             <div class="hero-content">
                 <img src="closed-app.png" alt="HDR→SDR app interface" class="hero-image">
                 <p class="hero-description">
-                    Your iPhone shoots incredible HDR footage, but good luck getting it to look right anywhere else. HDR→SDR fixes that. Drag, drop, convert. Your videos get the tone mapping they deserve—no cloud nonsense, no weird color shifts, just clean SDR files that actually look good.
+                    Your iPhone shoots beautiful HDR video. Too bad it looks awful everywhere else. HDR→SDR fixes that. Drag in your clips, hit convert, and get proper tone-mapped SDR files that look the way they should. No uploads, no weird colors, no hassle.
                 </p>
                 <p class="hero-description">
-                    Built for Mac. Runs on your machine. Your footage never leaves your device. Whether you're cutting in Final Cut, posting to Instagram, or just trying to archive your memories without the HDR headache, HDR→SDR gets it done.
+                    Works on Mac and iPhone. Everything runs locally—your footage never goes anywhere. Edit in Final Cut, post to Instagram, or just save your videos without the HDR mess. It's that simple.
                 </p>
-                <a href="https://apps.apple.com/app/hdr-to-sdr/id[APP_ID]" target="_blank" rel="noopener noreferrer" class="app-store-badge hero-button" aria-label="Download HDR→SDR from the Mac App Store">
-                    <img src="Download_on_the_Mac_App_Store_Badge_US-UK_RGB_blk_092917.svg" alt="Download on the Mac App Store" class="app-store-badge-image">
-                </a>
+                <div class="app-store-badges">
+                    <a href="https://apps.apple.com/app/hdr-to-sdr/id[APP_ID]" target="_blank" rel="noopener noreferrer" class="app-store-badge hero-button" aria-label="Download HDR→SDR from the Mac App Store">
+                        <img src="Download_on_the_Mac_App_Store_Badge_US-UK_RGB_blk_092917.svg" alt="Download on the Mac App Store" class="app-store-badge-image">
+                    </a>
+                    <a href="https://apps.apple.com/app/hdr-to-sdr/id[APP_ID]" target="_blank" rel="noopener noreferrer" class="app-store-badge hero-button" aria-label="Download HDR→SDR from the App Store">
+                        <img src="Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917.svg" alt="Download on the App Store" class="app-store-badge-image">
+                    </a>
+                </div>
             </div>
         </div>
     </section>
 
-    <!-- Features Section -->
     <section class="features">
         <div class="container">
             <h2 class="section-title">Features</h2>
             <div class="features-grid">
-                <!-- Feature 1: 100% Local Processing (text only) -->
                 <article class="feature-card feature-card-text">
-                    <h3 class="feature-title">100% Local Processing</h3>
+                    <h3 class="feature-title">Everything Stays on Your Device</h3>
                     <p class="feature-description">
-                        Your footage never leaves your device. HDR→SDR processes everything locally on your Mac using Apple's AVFoundation framework. No cloud uploads, no internet connection required, no data sent to external servers. Your videos stay private and secure, processed entirely on your machine with complete control over your content.
+                        No cloud uploads. No internet required. HDR→SDR processes your videos right on your Mac or iPhone using Apple's AVFoundation. Your files are yours and they stay that way.
                     </p>
                 </article>
 
-                <!-- Feature 2: Professional Output Formats (with image) -->
                 <article class="feature-card feature-card-image">
                     <img src="picker.png" alt="Professional output formats" class="feature-image">
-                    <h3 class="feature-title">Professional Output Formats</h3>
+                    <h3 class="feature-title">Export to Whatever You Need</h3>
                     <p class="feature-description">
-                        Choose from multiple professional-grade output formats to suit your workflow. Export to ProRes 422 for maximum quality and editing flexibility, or use H.264 or HEVC for smaller file sizes and broader compatibility. All outputs are properly tagged with Rec.709 color space metadata for consistent playback across all applications.
+                        ProRes 422 for editing. H.264 or HEVC for smaller files. Every export is tagged with proper Rec.709 metadata so your videos play back correctly everywhere.
                     </p>
                 </article>
 
-                <!-- Feature 3: Advanced Tone Mapping Control (with image) -->
                 <article class="feature-card feature-card-image">
                     <img src="tonemapping.png" alt="Advanced tone mapping controls" class="feature-image">
-                    <h3 class="feature-title">Advanced Tone Mapping Control</h3>
+                    <h3 class="feature-title">Control How Your Videos Look</h3>
                     <p class="feature-description">
-                        Fine-tune your conversions with seven built-in tone mapping presets: Natural, Bright, Cinematic, Vivid, Soft, High Contrast, and Preserve Highlights. For ultimate control, use the Custom preset to adjust highlight rolloff, shadow lift, and exposure with precision sliders. Each preset is carefully tuned to deliver specific looks while maintaining color accuracy.
+                        Pick from seven presets—Natural, Bright, Cinematic, Vivid, Soft, High Contrast, or Preserve Highlights. Want more control? Switch to Custom and dial in exactly what you want with sliders for highlights, shadows, and exposure.
                     </p>
                 </article>
 
-                <!-- Feature 4: Batch Processing Made Simple (text only) -->
                 <article class="feature-card feature-card-text">
-                    <h3 class="feature-title">Batch Processing Made Simple</h3>
+                    <h3 class="feature-title">Convert a Bunch at Once</h3>
                     <p class="feature-description">
-                        Drag and drop multiple HDR videos into the app and process them all in one go. The intuitive queue system shows progress for each file, lets you reorder items, and provides clear status indicators. Start your conversion, and the app handles the rest—you'll get a notification when everything is complete.
+                        Drop in as many videos as you want. The queue shows you what's happening with each file. Reorder them if you need to. When everything's done, you'll get a notification.
                     </p>
                 </article>
 
-                <!-- Feature 5: Intelligent HDR Detection (text only) -->
                 <article class="feature-card feature-card-text">
-                    <h3 class="feature-title">Intelligent HDR Detection</h3>
+                    <h3 class="feature-title">Knows What's Actually HDR</h3>
                     <p class="feature-description">
-                        The app automatically detects whether your footage is actually HDR by inspecting video track metadata, transfer functions, and color primaries. If a file isn't HDR, you'll see a helpful warning so you can avoid unnecessary conversions. This saves time and ensures you're only processing files that need conversion.
+                        The app checks the metadata to see if your video is really HDR. If it's not, you'll get a heads up so you don't waste time converting something that doesn't need it.
                     </p>
                 </article>
 
-                <!-- Feature 6: Beautiful, Native macOS Experience (with image) -->
                 <article class="feature-card feature-card-image">
                     <img src="interface.png" alt="HDR→SDR app interface" class="feature-image">
-                    <h3 class="feature-title">Beautiful, Native macOS Experience</h3>
+                    <h3 class="feature-title">Feels Like It Belongs</h3>
                     <p class="feature-description">
-                        Built with SwiftUI and designed specifically for macOS, HDR→SDR feels right at home on your Mac. The dark, elegant interface features smooth animations, glowing progress indicators, and a streamlined workflow that gets out of your way. No complex settings, no confusing options—just drag, drop, and convert.
+                        Built with SwiftUI for Mac and iPhone. Dark interface, smooth animations, nothing complicated. Just pick your videos and convert them.
                     </p>
                 </article>
             </div>
         </div>
     </section>
 
-    <!-- Technical Details Section -->
     <section class="technical-details">
         <div class="container">
             <h2 class="section-title">Technical Details</h2>
             <div class="technical-content">
                 <div class="technical-item">
                     <span class="technical-label">System Requirements:</span>
-                    <span class="technical-value">macOS 14.0 or later</span>
+                    <span class="technical-value">macOS 14.0 or later, iOS 17.0 or later</span>
                 </div>
                 <div class="technical-item">
                     <span class="technical-label">Output Formats:</span>
-                    <span class="technical-value">ProRes 422 Rec.709 (.mov), H.264 Rec.709 (.mp4), HEVC Rec.709 (.mp4)</span>
+                    <span class="technical-value">macOS: ProRes 422 Rec.709 (.mov), H.264 Rec.709 (.mp4), HEVC Rec.709 (.mp4) | iOS: H.264 Rec.709 (.mp4), HEVC Rec.709 (.mp4)</span>
                 </div>
                 <div class="technical-item">
                     <span class="technical-label">Color Space:</span>
@@ -125,18 +165,21 @@
         </div>
     </section>
 
-    <!-- Call-to-Action Section -->
     <section class="cta">
         <div class="container">
-            <h2 class="cta-title">Ready to Convert Your HDR Footage?</h2>
-            <p class="cta-subtitle">Download HDR→SDR from the Mac App Store and start converting your videos today.</p>
-            <a href="https://apps.apple.com/app/hdr-to-sdr/id[APP_ID]" target="_blank" rel="noopener noreferrer" class="app-store-badge" aria-label="Download HDR→SDR from the Mac App Store">
-                <img src="Download_on_the_Mac_App_Store_Badge_US-UK_RGB_blk_092917.svg" alt="Download on the Mac App Store" class="app-store-badge-image">
-            </a>
+            <h2 class="cta-title">Ready to Fix Your HDR Videos?</h2>
+            <p class="cta-subtitle">Grab HDR→SDR from the Mac App Store or App Store and start converting.</p>
+            <div class="app-store-badges">
+                <a href="https://apps.apple.com/app/hdr-to-sdr/id[APP_ID]" target="_blank" rel="noopener noreferrer" class="app-store-badge" aria-label="Download HDR→SDR from the Mac App Store">
+                    <img src="Download_on_the_Mac_App_Store_Badge_US-UK_RGB_blk_092917.svg" alt="Download on the Mac App Store" class="app-store-badge-image">
+                </a>
+                <a href="https://apps.apple.com/app/hdr-to-sdr/id[APP_ID]" target="_blank" rel="noopener noreferrer" class="app-store-badge" aria-label="Download HDR→SDR from the App Store">
+                    <img src="Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917.svg" alt="Download on the App Store" class="app-store-badge-image">
+                </a>
+            </div>
         </div>
     </section>
 
-    <!-- Footer -->
     <footer class="footer">
         <div class="container">
             <p class="footer-text">Made by Mike Savoie</p>
@@ -150,4 +193,3 @@
     </footer>
 </body>
 </html>
-

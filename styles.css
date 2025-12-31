@@ -704,6 +704,25 @@ a:hover {
 }
 
 /* ============================================
+   App Store Badges Container
+   ============================================ */
+.app-store-badges {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: var(--spacing-md);
+    margin-top: var(--spacing-lg);
+}
+
+@media (min-width: 768px) {
+    .app-store-badges {
+        flex-direction: row;
+        justify-content: center;
+        gap: var(--spacing-lg);
+    }
+}
+
+/* ============================================
    Mac App Store Badge
    ============================================ */
 .app-store-badge {
