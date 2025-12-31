@@ -721,14 +721,14 @@ a:hover {
 }
 
 .app-store-badge-image {
-    height: 40px;
+    height: 60px;
     width: auto;
     display: block;
 }
 
 @media (min-width: 768px) {
     .app-store-badge-image {
-        height: 50px;
+        height: 75px;
     }
 }
 
