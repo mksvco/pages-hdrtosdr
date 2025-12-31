@@ -704,6 +704,35 @@ a:hover {
 }
 
 /* ============================================
+   Mac App Store Badge
+   ============================================ */
+.app-store-badge {
+    display: inline-block;
+    transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out;
+}
+
+.app-store-badge:hover {
+    transform: translateY(-2px);
+    opacity: 0.9;
+}
+
+.app-store-badge:active {
+    transform: scale(0.98) translateY(0);
+}
+
+.app-store-badge-image {
+    height: 40px;
+    width: auto;
+    display: block;
+}
+
+@media (min-width: 768px) {
+    .app-store-badge-image {
+        height: 50px;
+    }
+}
+
+/* ============================================
    Footer
    ============================================ */
 .footer {
